@@ -20,6 +20,17 @@ export const routes: Routes = [
           path: 'tables',
           loadComponent: () => import('./business/tables/tables')
       },
+
+      {
+          path: '',
+          redirectTo: 'dashboard',
+          pathMatch: 'full'
+      }
     ]
+  },
+
+  {
+      path: '**',
+      redirectTo: 'dashboard',
   }
 ];
