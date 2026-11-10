@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Side } from './side';
+import { Side } from './sidebar';
 
 describe('Side', () => {
   let component: Side;
